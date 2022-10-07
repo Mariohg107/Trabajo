@@ -13,6 +13,10 @@
 		7FD247D828F079BC003FE1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD247D628F079BC003FE1DC /* Main.storyboard */; };
 		7FD247DA28F079BE003FE1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD247D928F079BE003FE1DC /* Assets.xcassets */; };
 		7FD247DD28F079BE003FE1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD247DB28F079BE003FE1DC /* LaunchScreen.storyboard */; };
+		7FD247ED28F07EC8003FE1DC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247EC28F07EC8003FE1DC /* TableViewController.swift */; };
+		7FD247EF28F07F66003FE1DC /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247EE28F07F66003FE1DC /* MyCell.swift */; };
+		7FD247F128F07F6B003FE1DC /* brandCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247F028F07F6B003FE1DC /* brandCar.swift */; };
+		7FD247F328F07F75003FE1DC /* ProtocalBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247F228F07F75003FE1DC /* ProtocalBrand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7FD247D928F079BE003FE1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD247DC28F079BE003FE1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD247DE28F079BE003FE1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD247EC28F07EC8003FE1DC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7FD247EE28F07F66003FE1DC /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCell.swift; path = ../../asdf/asdf/MyCell.swift; sourceTree = "<group>"; };
+		7FD247F028F07F6B003FE1DC /* brandCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = brandCar.swift; path = ../../asdf/asdf/brandCar.swift; sourceTree = "<group>"; };
+		7FD247F228F07F75003FE1DC /* ProtocalBrand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProtocalBrand.swift; path = ../../asdf/asdf/ProtocalBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				7FD247D928F079BE003FE1DC /* Assets.xcassets */,
 				7FD247DB28F079BE003FE1DC /* LaunchScreen.storyboard */,
 				7FD247DE28F079BE003FE1DC /* Info.plist */,
+				7FD247EC28F07EC8003FE1DC /* TableViewController.swift */,
+				7FD247EE28F07F66003FE1DC /* MyCell.swift */,
+				7FD247F028F07F6B003FE1DC /* brandCar.swift */,
+				7FD247F228F07F75003FE1DC /* ProtocalBrand.swift */,
 			);
 			path = Trabajo;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD247D528F079BC003FE1DC /* ViewController.swift in Sources */,
+				7FD247EF28F07F66003FE1DC /* MyCell.swift in Sources */,
+				7FD247F328F07F75003FE1DC /* ProtocalBrand.swift in Sources */,
+				7FD247F128F07F6B003FE1DC /* brandCar.swift in Sources */,
 				7FD247D128F079BC003FE1DC /* AppDelegate.swift in Sources */,
 				7FD247D328F079BC003FE1DC /* SceneDelegate.swift in Sources */,
+				7FD247ED28F07EC8003FE1DC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
