@@ -13,10 +13,10 @@
 		7FD247D828F079BC003FE1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD247D628F079BC003FE1DC /* Main.storyboard */; };
 		7FD247DA28F079BE003FE1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD247D928F079BE003FE1DC /* Assets.xcassets */; };
 		7FD247DD28F079BE003FE1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD247DB28F079BE003FE1DC /* LaunchScreen.storyboard */; };
-		7FD247E528F07BB2003FE1DC /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247E428F07BB2003FE1DC /* MyTableView.swift */; };
-		7FD247E728F07BBE003FE1DC /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247E628F07BBE003FE1DC /* MyCell.swift */; };
-		7FD247E928F07BC9003FE1DC /* brandCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247E828F07BC9003FE1DC /* brandCar.swift */; };
-		7FD247EB28F07BEB003FE1DC /* ProtocalBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247EA28F07BEB003FE1DC /* ProtocalBrand.swift */; };
+		7FD247FB28F08F0C003FE1DC /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247FA28F08F0C003FE1DC /* MyTableView.swift */; };
+		7FD247FD28F08F34003FE1DC /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247FC28F08F34003FE1DC /* MyCell.swift */; };
+		7FD247FF28F08F42003FE1DC /* BrandCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD247FE28F08F42003FE1DC /* BrandCar.swift */; };
+		7FD2480128F08F60003FE1DC /* ProtocolBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2480028F08F60003FE1DC /* ProtocolBrand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		7FD247D928F079BE003FE1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD247DC28F079BE003FE1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD247DE28F079BE003FE1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FD247E428F07BB2003FE1DC /* MyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableView.swift; path = ../../asdf/asdf/MyTableView.swift; sourceTree = "<group>"; };
-		7FD247E628F07BBE003FE1DC /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCell.swift; path = ../../asdf/asdf/MyCell.swift; sourceTree = "<group>"; };
-		7FD247E828F07BC9003FE1DC /* brandCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = brandCar.swift; path = ../../asdf/asdf/brandCar.swift; sourceTree = "<group>"; };
-		7FD247EA28F07BEB003FE1DC /* ProtocalBrand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProtocalBrand.swift; path = ../../asdf/asdf/ProtocalBrand.swift; sourceTree = "<group>"; };
+		7FD247FA28F08F0C003FE1DC /* MyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableView.swift; sourceTree = "<group>"; };
+		7FD247FC28F08F34003FE1DC /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		7FD247FE28F08F42003FE1DC /* BrandCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCar.swift; sourceTree = "<group>"; };
+		7FD2480028F08F60003FE1DC /* ProtocolBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,10 @@
 				7FD247D928F079BE003FE1DC /* Assets.xcassets */,
 				7FD247DB28F079BE003FE1DC /* LaunchScreen.storyboard */,
 				7FD247DE28F079BE003FE1DC /* Info.plist */,
-				7FD247E428F07BB2003FE1DC /* MyTableView.swift */,
-				7FD247E628F07BBE003FE1DC /* MyCell.swift */,
-				7FD247E828F07BC9003FE1DC /* brandCar.swift */,
-				7FD247EA28F07BEB003FE1DC /* ProtocalBrand.swift */,
+				7FD247FA28F08F0C003FE1DC /* MyTableView.swift */,
+				7FD247FC28F08F34003FE1DC /* MyCell.swift */,
+				7FD247FE28F08F42003FE1DC /* BrandCar.swift */,
+				7FD2480028F08F60003FE1DC /* ProtocolBrand.swift */,
 			);
 			path = Trabajo;
 			sourceTree = "<group>";
@@ -150,12 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD247FF28F08F42003FE1DC /* BrandCar.swift in Sources */,
 				7FD247D528F079BC003FE1DC /* ViewController.swift in Sources */,
-				7FD247E728F07BBE003FE1DC /* MyCell.swift in Sources */,
-				7FD247EB28F07BEB003FE1DC /* ProtocalBrand.swift in Sources */,
-				7FD247E928F07BC9003FE1DC /* brandCar.swift in Sources */,
-				7FD247E528F07BB2003FE1DC /* MyTableView.swift in Sources */,
+				7FD247FD28F08F34003FE1DC /* MyCell.swift in Sources */,
 				7FD247D128F079BC003FE1DC /* AppDelegate.swift in Sources */,
+				7FD2480128F08F60003FE1DC /* ProtocolBrand.swift in Sources */,
+				7FD247FB28F08F0C003FE1DC /* MyTableView.swift in Sources */,
 				7FD247D328F079BC003FE1DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
