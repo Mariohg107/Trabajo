@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    @IBOutlet weak var UItableView: UITableView!
+    //@IBOutlet weak var UItableView: UITableView!
     
           
     let arrayBrands = [
@@ -24,11 +24,6 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-//        var image : UIImage = UIImage(named: "logom")
-//        var image2 : UIImage = UIImage(named: "logoa")
-//        var image3 : UIImage = UIImage(named: "logor")
-        
 
         let cell: MyCell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath) as! MyCell
         cell.nombre.text = arrayBrands[indexPath.row].getName()
@@ -40,7 +35,7 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100.0
+        return 150.0
     }
     
     func getImage(url: String)->UIImage{
